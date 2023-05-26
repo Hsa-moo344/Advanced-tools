@@ -37,7 +37,12 @@ p {
   margin-top: 40px;
   justify-content: center;
 }
-
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+}
 .navigation-links a {
   margin: 20px;
 }
